@@ -34,7 +34,7 @@ header  {
   position: relative;
   margin-top: 20px;
   margin-left: 90px;
-  background-image: url("imagens/boneco.png");
+    background-image: url("imagens/boneco.png");  
   background-repeat: no-repeat;
 
 }
