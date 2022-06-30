@@ -1,0 +1,141 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+
+body {
+  background-color: #9C9BF4;
+  width: 100%;
+}
+
+header  {
+  margin: auto;
+  margin-top: 2rem;
+  margin-left: 3rem;
+
+}
+
+.main {
+  display: flex;
+  margin: 90px;
+  margin-bottom: 50px;
+  max-width: 100%;
+}
+
+.input-texto {
+  margin-top: 90px;
+  font-size: 30px;
+}
+
+.mensagem {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 90px;
+  background-image: url("imagens/boneco.png");
+  background-repeat: no-repeat;
+
+}
+
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.encriptar {
+  background-color: darkblue;
+  color: white;
+  font-size: 16px;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.encriptar:hover {
+  background: white;
+  color: black;
+}
+
+.desencriptar {
+  margin-left: 30px;
+  font-size: 16px;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  background: lightblue;
+  color: white;
+}
+
+.desencriptar:hover {
+  background: white;
+  color: black;
+}
+
+.informacao {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 5px 0;
+  align-items: center;
+  animation: piscar 1s linear infinite alternate;
+}
+
+.informacao p {
+  font-size: 12px;
+  color: #495057;
+  margin: 0 0 0 5px;
+  animation: piscar 1s linear infinite alternate;
+}
+
+.copiar {
+  width: 250px;
+  height: 50px;
+  margin-left: 30%;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 5px;
+  background: lightblue;
+  font-weight: bold;
+  color: white;
+}
+
+.copiar:hover {
+  background: white;
+  color: black;
+}
+
+
+.footer {
+  background: #636CDD;
+  width: 100%;
+  position: static;
+  flex-direction: column;
+  text-align: center;
+  height: 8rem;
+  bottom: 0px;
+ 
+}
+
+.footer p {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  
+}
+
+.footer a {
+  font-size:18px;
+  color: black;
+  
+  
+}
+.redes-socias img{
+  margin-left: 8px;
+  margin-top: 25px;
+}
+@media  screen and(max-width:940px) {
+  
+}

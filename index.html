@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="imagens/logoalura.png"
+        alt="Logo da alura com a inicial da letra a"
+      />
+    </header>
+
+    <main class="main">
+      <section>
+        <textarea
+          class="input-texto"
+          name=""
+          id=""
+          cols="40"
+          rows="6"
+          placeholder="digite seu texto:"
+        ></textarea>
+        <div class="informacao">
+          <img
+            src="imagens/exclamacao.png"
+            alt="ponto de exclamação"
+            width="12px"
+          />
+          <p>Apenas letras maiúsculas e minúsculas</p>
+        </div>
+        <div class="botoes">
+          <button class="encriptar" onclick="btnEncriptar()">
+            Criptografar
+          </button>
+          <button class="desencriptar" onclick="btnDesencriptar()">
+            Descriptografar
+          </button>
+        </div>
+      </section>
+
+      <section>
+        <textarea
+          class="mensagem"
+          name=""
+          id="msg"
+          cols="18"
+          rows="8"
+          placeholder=""
+        ></textarea>
+        <div class="botoes">
+          <button class="copiar" onclick="btnCopiarMensagem()">Copiar</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <br /><br />
+      <p>&#169; 2022 <a href="">Rafael Pinheiro-Desenvolvedor</a></p>
+      <div class="redes-socias">
+        <a href="https://github.com/rafaelpinheiro84"
+          ><img src="imagens/logogithub 1.png" alt=""
+        /></a>
+        <a href=""
+          ><img src="imagens/instagram1.png" alt="imagem instragram"
+        /></a>
+
+        <a href="https://www.linkedin.com/in/rafael-pinheiro-desenvolvedor/"
+          ><img
+            class="imagens-rede"
+            src="imagens/logolinkedin 1.png"
+            alt="icone do linkedin"
+        /></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
